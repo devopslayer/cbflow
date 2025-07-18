@@ -1,7 +1,7 @@
 # BiteSpeed Frontend Task: Chatbot Flow Builder
 
 ## 🌐 Live Demo
-👉 [View the deployed app here](https://your-deployment-url.com)  
+👉 [View the deployed app here](https://devopslayer.github.io/cbflow/)  
 👉 [GitHub Repository](https://github.com/devopslayer/cbflow)
 
 ---
