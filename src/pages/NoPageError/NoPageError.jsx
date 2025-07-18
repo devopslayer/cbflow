@@ -8,7 +8,7 @@ function NoPageError() {
       <div className="text-center">
         <h1 className="display-4">404 - Page Not Found</h1>
         <p className="lead">The page you are looking for does not exist.</p>
-        <Link to="/cbflow/" className="btn btn-primary">
+        <Link to="/" className="btn btn-primary">
           Go to Home
         </Link>
       </div>
