@@ -1,0 +1,38 @@
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-brand {
+  /* width: 100%; */
+  width: 20%;
+  max-width: 250px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.navbar-btn {
+  width: 20%;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-btn button {
+  background-color: #fff;
+  color: #0041d0;
+  border: 1px solid #0041d0;
+  border-radius: 5px;
+  padding: 0.4rem 2rem;
+  font-weight: bold;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.navbar-btn button:hover {
+  background-color: #e6f0ff;
+  color: #8a9e9d;
+}

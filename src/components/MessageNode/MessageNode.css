@@ -1,0 +1,67 @@
+.message-node {
+  background-color: #fff;
+  /* min-width: 200px;
+  max-width: fit-content; */
+}
+
+.message-node .message-node__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+  background-color: #b9d7f7;
+  color: inherit;
+  font-weight: 600;
+  gap: 20px;
+}
+
+.message-node .message-node__header i {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-node__title .bi-chat-text {
+  margin-right: 4px;
+}
+
+.bi-whatsapp {
+  background-color: #fff !important;
+  color: #198754 !important;
+  border-radius: 50%;
+  padding: 2px;
+  font-weight: 600;
+}
+
+.message-node__title {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.message-node__title h5 {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.message-node .message-node__content {
+  padding: 5px;
+  color: inherit;
+  font-size: 0.6rem;
+  border-radius: 5px;
+}
+
+.message-node .message-node__content p {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  max-width: 200px;
+}

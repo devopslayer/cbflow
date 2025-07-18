@@ -1,0 +1,65 @@
+.updatenode_control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  max-width: 100%;
+  height: 100%;
+}
+
+.updatenode_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  color: inherit;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.updatenode_header button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: fit-content;
+  height: auto;
+  background-color: transparent;
+}
+
+.updatenode_header i {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.updatenode_header h5 {
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.form label {
+  color: #a2a2a2;
+  font-weight: 600;
+}
+
+.form #nodeLabel {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-weight: 500;
+}
